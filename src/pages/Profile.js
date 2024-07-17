@@ -16,10 +16,9 @@ function Profile({ userName }) {
       value: <Link url={profile.repos_url}
         title={profile.repos_url} />,
     },
-    { field: 'name', value: profile.name },
-    { field: 'company', value: profile.company },
+    { field: 'name', value: profile.name }, 
     { field: 'location', value: profile.location },
-    { field: 'email', value: profile.email },
+    { field: 'email', value: `sagarlamichhane929@gmail.com`},
     { field: 'bio', value: profile.bio },
   ];
   useEffect(()=>{
